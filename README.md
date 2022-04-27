@@ -6,7 +6,7 @@ you can use this tool for findings xss and sql injection vulnerablity from multi
 
 # How to Install:
 ```
-go install https://github.com/edwinfred/freq@edit-alert
+go install github.com/edwinfred/freq@edit-alert
 ```
 
 
