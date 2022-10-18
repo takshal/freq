@@ -45,7 +45,7 @@ func main(){
 	   			check_result := strings.Contains(sb , "alert(1)")
 	   			// fmt.Println(check_result)
 	   			if check_result != false {
-	   				fmt.Println(string(colorRed),"Vulnerable To XSS:", domain,string(colorReset))
+	   				fmt.Println(string(colorRed),"XSS FOUND:", domain,string(colorReset))
 	   			}else{
 	   				fmt.Println(string(colorGreen),"Not Vulnerable To XSS:", domain, string(colorReset))
 	   			}
